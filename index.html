@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <div class="header-content">
+            <img id="header-img" src="https://static.vaadin.com/directory/user70309/icon/file3460235915593609009_1554052408926logo.png" alt="GridMaster Pro Logo">
+            <nav id="nav-bar">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#video-section" class="nav-link">Demo</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#form" class="nav-link">Register</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+          <!-- Section Hero -->
+        <section class="hero">
+            <h1>🎨 Master CSS Grid in 30 Days</h1>
+            <p>The complete training to become a modern layout expert</p>
+        </section>
+
+           <!-- Section Features -->
+        <section id="features">
+            <h2>🚀 Why Choose GridMaster Pro?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>Complete Content</h3>
+                    <p>Over 50 video lessons covering all aspects of CSS Grid, from beginner to expert.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💻</div>
+                    <h3>Practical Exercises</h3>
+                    <p>Dozens of real projects to put your knowledge into practice immediately.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Personalized Support</h3>
+                    <p>Access to our Discord community and weekly mentoring sessions.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Video -->
+        <section id="video-section">
+            <h2>🎥 Watch a Course Preview</h2>
+            <div class="video-container">
+                <iframe 
+                id="video"
+                src="https://www.youtube.com/embed/EiNiSFIPIQE" 
+                title="CSS Grid Tutorial"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+    
+         <!-- Section Pricing -->
+        <section id="pricing">
+            <h2>💎 Choose Your Plan</h2>
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>Starter</h3>
+                    <div class="price">$29</div>
+                    <div class="price-period">per month</div>
+                    <ul class="price-features">
+                        <li>✅ Access to basic courses</li>
+                        <li>✅ 10 practical projects</li>
+                        <li>✅ Email support</li>
+                        <li>❌ Mentoring sessions</li>
+                    </ul>
+                </div>
+
+                <div class="price-card featured">
+                    <h3>Pro</h3>
+                    <div class="price">$49</div>
+                    <div class="price-period">per month</div>
+                    <ul class="price-features">
+                        <li>✅ All courses</li>
+                        <li>✅ 50+ practical projects</li>
+                        <li>✅ Priority support</li>
+                        <li>✅ 4 mentoring sessions/month</li>
+                    </ul>
+                </div>
+
+                <div class="price-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">$99</div>
+                    <div class="price-period">per month</div>
+                    <ul class="price-features">
+                        <li>✅ Unlimited team access</li>
+                        <li>✅ Custom projects</li>
+                        <li>✅ Dedicated 24/7 support</li>
+                        <li>✅ Unlimited mentoring</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Formulaire d'inscription -->
+            <form id="form" action="https://www.freecodecamp.org/email-submit" method="POST">
+                <h3>📧 Start for Free</h3>
+                <div class="form-group">
+                <label for="email">Enter your email to receive a free lesson:</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email"
+                    placeholder="your@email.com" 
+                    required
+                >
+                </div>
+                <input type="submit" id="submit" value="Get Started for Free 🚀">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 GridMaster Pro - All rights reserved | Created By Barry with CSS Grid & Flexbox ❤️</p>
+    </footer>
+</body>
+</html>
